@@ -1,0 +1,6 @@
+/*
+provides jquery ui theme 'smoothness' from gem 'jquery-ui-rails':
+= require jquery.ui.all
+
+= require ui.jqgrid
+*/
