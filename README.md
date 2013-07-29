@@ -9,7 +9,7 @@ Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.
 Add these lines to your application's Gemfile:
 
     # jqgrid jquery plugin packaged for the rails asset pipeline
-    gem 'jqgrid-jquery-rails', '~> 4.2.0'
+    gem 'jqgrid-jquery-rails', '~> 4.5.2'
 
 And then execute:
 
