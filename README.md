@@ -1,6 +1,6 @@
 # jqgrid-jquery-rails [![Gem Version](https://badge.fury.io/rb/jqgrid-jquery-rails.png)](http://badge.fury.io/rb/jqgrid-jquery-rails)
 
-> Created by Doc Walker
+> Gemified by Doc Walker
 
 Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.
 
