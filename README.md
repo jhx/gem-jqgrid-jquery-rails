@@ -8,16 +8,22 @@ Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.
 
 Add these lines to your application's Gemfile:
 
-    # jqgrid jquery plugin packaged for the rails asset pipeline
-    gem 'jqgrid-jquery-rails', '~> 4.5.2'
+```rb
+# jqgrid jquery plugin packaged for the rails asset pipeline
+gem 'jqgrid-jquery-rails', '~> 4.5.2'
+```
 
 And then execute:
 
-    $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install jqgrid-jquery-rails
+```sh
+$ gem install jqgrid-jquery-rails
+```
 
 Gem version notes:
 
@@ -28,13 +34,17 @@ Gem version notes:
 
 Add these lines to `app/assets/javascripts/application.js`
 
-    // provides jqgrid jquery plugin from gem 'jqgrid-jquery-rails':
-    //= require jqgrid-jquery-rails
+```js
+// provides jqgrid jquery plugin from gem 'jqgrid-jquery-rails':
+//= require jqgrid-jquery-rails
+```
 
 Add these lines to `app/assets/stylesheets/application.css`
 
-    provides jqgrid jquery plugin from gem 'jqgrid-jquery-rails':
-    = require jqgrid-jquery-rails
+```css
+provides jqgrid jquery plugin from gem 'jqgrid-jquery-rails':
+= require jqgrid-jquery-rails
+```
 
 ## Contributing
 
