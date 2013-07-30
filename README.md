@@ -6,7 +6,7 @@ Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.
 
 ## Installation
 
-Add these lines to your application's Gemfile:
+Add these lines to your application's `Gemfile`:
 
 ```rb
 # jqgrid jquery plugin packaged for the rails asset pipeline
