@@ -42,8 +42,10 @@ Add these lines to `app/assets/javascripts/application.js`
 Add these lines to `app/assets/stylesheets/application.css`
 
 ```css
+/*
 provides jqgrid jquery plugin from gem 'jqgrid-jquery-rails':
 = require jqgrid-jquery-rails
+*/
 ```
 
 ## Contributing
