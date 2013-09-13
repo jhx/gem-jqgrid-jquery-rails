@@ -10,7 +10,7 @@ Add these lines to your application's `Gemfile`:
 
 ```rb
 # jqgrid jquery plugin packaged for the rails asset pipeline
-gem 'jqgrid-jquery-rails', '~> 4.3.3'
+gem 'jqgrid-jquery-rails', '~> 4.4.0'
 ```
 
 And then execute:
