@@ -7,6 +7,6 @@ module JqgridJquery
     #   "2.0.0.pre"
     #   "2.0.0.beta"
     # Refer to Semantic Versioning 2.0.0 (http://semver.org).
-    VERSION = "4.3.0.0"
+    VERSION = "4.3.1.0"
   end
 end
