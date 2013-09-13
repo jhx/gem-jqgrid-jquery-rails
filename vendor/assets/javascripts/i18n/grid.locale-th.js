@@ -7,8 +7,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
 **/
-$.jgrid = $.jgrid || {};
-$.extend($.jgrid,{
+$.jgrid = {
 	defaults : {
 		recordtext: "แสดง {0} - {1} จาก {2}",
 		emptyrecords: "ไม่พบข้อมูล",
@@ -19,8 +18,10 @@ $.extend($.jgrid,{
 		caption: "กำลังค้นหา...",
 		Find: "ค้นหา",
 		Reset: "คืนค่ากลับ",
-		odata: [{ oper:'eq', text:"เท่ากับ"},{ oper:'ne', text:"ไม่เท่ากับ"},{ oper:'lt', text:"น้อยกว่า"},{ oper:'le', text:"ไม่มากกว่า"},{ oper:'gt', text:"มากกกว่า"},{ oper:'ge', text:"ไม่น้อยกว่า"},{ oper:'bw', text:"ขึ้นต้นด้วย"},{ oper:'bn', text:"ไม่ขึ้นต้นด้วย"},{ oper:'in', text:"มีคำใดคำหนึ่งใน"},{ oper:'ni', text:"ไม่มีคำใดคำหนึ่งใน"},{ oper:'ew', text:"ลงท้ายด้วย"},{ oper:'en', text:"ไม่ลงท้ายด้วย"},{ oper:'cn', text:"มีคำว่า"},{ oper:'nc', text:"ไม่มีคำว่า"}],
-		groupOps: [	{ op: "และ", text: "ทั้งหมด" },	{ op: "หรือ",  text: "ใดๆ" }	]
+		odata : ['เท่ากับ', 'ไม่เท่ากับ', 'น้อยกว่า', 'ไม่มากกว่า','มากกกว่า','ไม่น้อยกว่า', 'ขึ้นต้นด้วย','ไม่ขึ้นต้นด้วย','มีคำใดคำหนึ่งใน','ไม่มีคำใดคำหนึ่งใน','ลงท้ายด้วย','ไม่ลงท้ายด้วย','มีคำว่า','ไม่มีคำว่า'],
+		groupOps: [	{ op: "และ", text: "ทั้งหมด" },	{ op: "หรือ",  text: "ใดๆ" }	],
+		matchText: " ตรงกันกับ",
+		rulesText: " ตามกฏ"
 	},
 	edit : {
 		addCaption: "เพิ่มข้อมูล",
@@ -102,7 +103,6 @@ $.extend($.jgrid,{
 			S: function (j) {return ''},
 			srcformat: 'Y-m-d',
 			newformat: 'd/m/Y',
-			parseRe : /[Tt\\\/:_;.,\t\s-]/,
 			masks : {
 				ISO8601Long:"Y-m-d H:i:s",
 				ISO8601Short:"Y-m-d",
@@ -124,5 +124,5 @@ $.extend($.jgrid,{
 		checkbox : {disabled:true},
 		idName : 'id'
 	}
-});
+};
 })(jQuery);
