@@ -3,17 +3,13 @@
  * jqGrid Brazilian-Portuguese Translation
  * Sergio Righi sergio.righi@gmail.com
  * http://curve.com.br
- * 
- * Updated by Jonnas Fonini
- * http://fonini.net
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
 **/
-$.jgrid = $.jgrid || {};
-$.extend($.jgrid,{
+$.jgrid = {
 	defaults : {
-		recordtext: "Ver {0} - {1} de {2}",
+		recordtext: "Ver {0} - {1} of {2}",
 	    emptyrecords: "Nenhum registro para visualizar",
 		loadtext: "Carregando...",
 		pgtext : "Página {0} de {1}"
@@ -22,8 +18,10 @@ $.extend($.jgrid,{
 	    caption: "Procurar...",
 	    Find: "Procurar",
 	    Reset: "Resetar",
-	    odata: [{ oper:'eq', text:"igual"},{ oper:'ne', text:"diferente"},{ oper:'lt', text:"menor"},{ oper:'le', text:"menor ou igual"},{ oper:'gt', text:"maior"},{ oper:'ge', text:"maior ou igual"},{ oper:'bw', text:"inicia com"},{ oper:'bn', text:"não inicia com"},{ oper:'in', text:"está em"},{ oper:'ni', text:"não está em"},{ oper:'ew', text:"termina com"},{ oper:'en', text:"não termina com"},{ oper:'cn', text:"contém"},{ oper:'nc', text:"não contém"},{ oper:'nu', text:"nulo"},{ oper:'nn', text:"não nulo"}],
-	    groupOps: [	{ op: "AND", text: "all" },	{ op: "OR",  text: "any" }	]
+	    odata : ['equal', 'not equal', 'less', 'less or equal','greater','greater or equal', 'begins with','does not begin with','is in','is not in','ends with','does not end with','contains','does not contain'],
+	    groupOps: [	{ op: "AND", text: "all" },	{ op: "OR",  text: "any" }	],
+		matchText: " iguala",
+		rulesText: " regras"
 	},
 	edit : {
 	    addCaption: "Incluir",
@@ -56,7 +54,7 @@ $.extend($.jgrid,{
 	},
 	del : {
     caption: "Apagar",
-	    msg: "Apagar registro(s) selecionado(s)?",
+	    msg: "Apagar registros selecionado(s)?",
 	    bSubmit: "Apagar",
 	    bCancel: "Cancelar"
 	},
@@ -70,7 +68,7 @@ $.extend($.jgrid,{
 	    searchtext: " ",
 	    searchtitle: "Procurar registros",
 	    refreshtext: "",
-	    refreshtitle: "Recarregando tabela",
+	    refreshtitle: "Recarrgando Tabela",
 	    alertcap: "Aviso",
 	    alerttext: "Por favor, selecione um registro",
 		viewtext: "",
@@ -83,7 +81,7 @@ $.extend($.jgrid,{
 	},
 	errors : {
 		errcap : "Erro",
-		nourl : "Nenhuma URL definida",
+		nourl : "Nenhuma URL defenida",
 		norecords: "Sem registros para exibir",
 	    model : "Comprimento de colNames <> colModel!"
 	},
@@ -104,7 +102,6 @@ $.extend($.jgrid,{
 			S: function (j) {return j < 11 || j > 13 ? ['º', 'º', 'º', 'º'][Math.min((j - 1) % 10, 3)] : 'º'},
 			srcformat: 'Y-m-d',
 			newformat: 'd/m/Y',
-			parseRe : /[Tt\\\/:_;.,\t\s-]/,
 			masks : {
 	            ISO8601Long:"Y-m-d H:i:s",
 	            ISO8601Short:"Y-m-d",
@@ -126,5 +123,5 @@ $.extend($.jgrid,{
 	    checkbox : {disabled:true},
 		idName : 'id'
 	}
-});
+};
 })(jQuery);

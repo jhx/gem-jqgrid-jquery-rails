@@ -7,8 +7,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
 **/
-$.jgrid = $.jgrid || {};
-$.extend($.jgrid,{
+$.jgrid = {
 	defaults : {
 		recordtext: "تسجيل {0} - {1} على {2}",
 		emptyrecords: "لا يوجد تسجيل",
@@ -19,8 +18,10 @@ $.extend($.jgrid,{
 		caption: "بحث...",
 		Find: "بحث",
 		Reset: "إلغاء",
-		odata: [{ oper:'eq', text:"يساوي"},{ oper:'ne', text:"يختلف"},{ oper:'lt', text:"أقل"},{ oper:'le', text:"أقل أو يساوي"},{ oper:'gt', text:"أكبر"},{ oper:'ge', text:"أكبر أو يساوي"},{ oper:'bw', text:"يبدأ بـ"},{ oper:'bn', text:"لا يبدأ بـ"},{ oper:'in', text:"est dans"},{ oper:'ni', text:"n'est pas dans"},{ oper:'ew', text:"ينته بـ"},{ oper:'en', text:"لا ينته بـ"},{ oper:'cn', text:"يحتوي"},{ oper:'nc', text:"لا يحتوي"}],
-		groupOps: [	{ op: "مع", text: "الكل" },	{ op: "أو",  text: "لا أحد" }	]
+		odata : ['يساوي', 'يختلف', 'أقل', 'أقل أو يساوي','أكبر','أكبر أو يساوي', 'يبدأ بـ','لا يبدأ بـ','est dans',"n'est pas dans",'ينته بـ','لا ينته بـ','يحتوي','لا يحتوي'],
+		groupOps: [	{ op: "مع", text: "الكل" },	{ op: "أو",  text: "لا أحد" }	],
+		matchText: " توافق",
+		rulesText: " قواعد"
 	},
 	edit : {
 		addCaption: "اضافة",
@@ -100,7 +101,6 @@ $.extend($.jgrid,{
 			S: function (j) {return j == 1 ? 'er' : 'e';},
 			srcformat: 'Y-m-d',
 			newformat: 'd/m/Y',
-			parseRe : /[Tt\\\/:_;.,\t\s-]/,
 			masks : {
 				ISO8601Long:"Y-m-d H:i:s",
 				ISO8601Short:"Y-m-d",
@@ -122,5 +122,5 @@ $.extend($.jgrid,{
 		checkbox : {disabled:true},
 		idName : 'id'
 	}
-});
+};
 })(jQuery);

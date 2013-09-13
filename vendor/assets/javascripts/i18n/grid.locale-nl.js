@@ -1,6 +1,6 @@
 (function(a) {
-a.jgrid = a.jgrid || {};
-a.extend(a.jgrid,{
+    a.jgrid =
+    {
         defaults:
         {
             recordtext: "regels {0} - {1} van {2}",
@@ -13,8 +13,10 @@ a.extend(a.jgrid,{
             caption: "Zoeken...",
             Find: "Zoek",
             Reset: "Herstellen",
-            odata: [{ oper:'eq', text:"gelijk aan"},{ oper:'ne', text:"niet gelijk aan"},{ oper:'lt', text:"kleiner dan"},{ oper:'le', text:"kleiner dan of gelijk aan"},{ oper:'gt', text:"groter dan"},{ oper:'ge', text:"groter dan of gelijk aan"},{ oper:'bw', text:"begint met"},{ oper:'bn', text:"begint niet met"},{ oper:'in', text:"is in"},{ oper:'ni', text:"is niet in"},{ oper:'ew', text:"eindigd met"},{ oper:'en', text:"eindigd niet met"},{ oper:'cn', text:"bevat"},{ oper:'nc', text:"bevat niet"}],
-            groupOps: [{ op: "AND", text: "alle" }, { op: "OR", text: "een van de"}]
+            odata: ["gelijk aan", "niet gelijk aan", "kleiner dan", "kleiner dan of gelijk aan", "groter dan", "groter dan of gelijk aan", "begint met", "begint niet met", "is in", "is niet in", "eindigd met", "eindigd niet met", "bevat", "bevat niet"],
+            groupOps: [{ op: "AND", text: "alle" }, { op: "OR", text: "een van de"}],
+            matchText: " match",
+            rulesText: " regels"
         },
         edit:
         {
@@ -118,7 +120,6 @@ a.extend(a.jgrid,{
                 },
                 srcformat: "Y-m-d",
                 newformat: "d/m/Y",
-				parseRe : /[Tt\\\/:_;.,\t\s-]/,
                 masks:
                 {
                     ISO8601Long: "Y-m-d H:i:s",
@@ -144,5 +145,5 @@ a.extend(a.jgrid,{
             },
             idName: "id"
         }
-    });
+    }
 })(jQuery);
