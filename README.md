@@ -1,6 +1,9 @@
 # jqgrid-jquery-rails
 [![Gem Version](https://badge.fury.io/rb/jqgrid-jquery-rails.png)](http://badge.fury.io/rb/jqgrid-jquery-rails)
 [![Build Status](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails.png?branch=master)](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails)
+[![Dependency Status](https://gemnasium.com/jhx/gem-jqgrid-jquery-rails.png)](https://gemnasium.com/jhx/gem-jqgrid-jquery-rails)
+[![Code Climate](https://codeclimate.com/github/jhx/gem-jqgrid-jquery-rails.png)](https://codeclimate.com/github/jhx/gem-jqgrid-jquery-rails)
+[![Coverage Status](https://coveralls.io/repos/jhx/gem-jqgrid-jquery-rails/badge.png)](https://coveralls.io/r/jhx/gem-jqgrid-jquery-rails)
 
 > Gemified by Doc Walker
 
