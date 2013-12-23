@@ -1,4 +1,6 @@
-# jqgrid-jquery-rails [![Gem Version](https://badge.fury.io/rb/jqgrid-jquery-rails.png)](http://badge.fury.io/rb/jqgrid-jquery-rails)
+# jqgrid-jquery-rails
+[![Gem Version](https://badge.fury.io/rb/jqgrid-jquery-rails.png)](http://badge.fury.io/rb/jqgrid-jquery-rails)
+[![Build Status](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails.png?branch=master)](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails)
 
 > Gemified by Doc Walker
 
