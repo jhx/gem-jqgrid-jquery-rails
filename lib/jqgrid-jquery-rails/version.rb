@@ -1,12 +1,13 @@
 module JqgridJquery
   module Rails
-    # Use jqGrid version; append a pre-release version identifier if gem
-    # is updated without updating version of jqGrid.
-    # Examples:
-    #   "2.0.0.rc1"
-    #   "2.0.0.pre"
-    #   "2.0.0.beta"
     # Refer to Semantic Versioning 2.0.0 (http://semver.org).
-    VERSION = "4.5.2.0"
+    # Use jqGrid version (major, minor, patch) and append a gem
+    # version identifier (denoted as VV below); use leading zero.
+    # Examples:
+    #   "X.Y.ZVV" is jqGrid vX.Y.Z + gem release VV
+    #   "4.5.200" is jqGrid v4.5.2 + gem release 0
+    #   "4.5.201" is jqGrid v4.5.2 + gem release 1
+    #   "4.5.210" is jqGrid v4.5.2 + gem release 10
+    VERSION = "4.5.200"
   end
 end
