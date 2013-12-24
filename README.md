@@ -15,7 +15,7 @@ Add these lines to your application's `Gemfile`:
 
 ```rb
 # jqgrid jquery plugin packaged for the rails asset pipeline
-gem 'jqgrid-jquery-rails', '~> 4.5.2'
+gem 'jqgrid-jquery-rails', '~> 4.5.200'
 ```
 
 And then execute:
