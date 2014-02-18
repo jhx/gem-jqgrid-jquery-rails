@@ -1,3 +1,4 @@
+# encoding: utf-8
 module JqgridJquery
   module Rails
     # Refer to Semantic Versioning 2.0.0 (http://semver.org).
