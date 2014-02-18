@@ -1,4 +1,6 @@
 #!/usr/bin/env rake
+require 'rubocop/rake_task'
+
 begin
   require 'bundler/setup'
 rescue LoadError
@@ -29,4 +31,12 @@ require 'rspec/core/rake_task'
 
 RSpec::Core::RakeTask.new(:spec)
 
-task :default => :spec
+task :default => [:rubocop, :spec]
+
+#------------------------------------------------------ ruby lint/style checks
+desc 'Runs rubocop lint tool against the gem.'
+task :rubocop do
+  Rubocop::RakeTask.new(:rubocop) do |task|
+    # task.fail_on_error = true
+  end
+end # task
