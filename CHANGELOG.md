@@ -4,105 +4,108 @@ CHANGELOG
 TBD
 --------------------
 
-- `IMPROVE` update `railties` gem dependency | [#45][]
-- `IMPROVE` update gem version in [README](README.md) | [#43][]
+- `NEW` - add ruby lint checks (via rubocop), fix flagged items | [#51][]
+- `IMPROVE` - update `semantic` gem version | [#49][]
+- `NEW` - add [CHANGELOG](CHANGELOG.md) | [#47][]
+- `IMPROVE` - update `railties` - gem dependency | [#45][]
+- `IMPROVE` - update gem version in [README](README.md) | [#43][]
 
 
 4.5.200 / 2013-12-23
 --------------------
 
-- `FIX` add newline to asset file | [#41][]
-- `NEW` add spec for dummy Rails app | [#39][]
-- `IMPROVE` add dependency, coverage, code climate badges to [README](README.md) | [#37][]
-- `IMPROVE` add build status badge to [README](README.md) | [#35][]
-- `NEW` add specification files for ruby version | [#34][]
-- `IMPROVE` remove version requirement for `jquery-ui` | [#32][]
-- `IMPROVE` update gem `jquery-rails` to v4.1.1 | [#30][]
+- `FIX` - add newline to asset file | [#41][]
+- `NEW` - add spec for dummy Rails app | [#39][]
+- `IMPROVE` - add dependency, coverage, code climate badges to [README](README.md) | [#37][]
+- `IMPROVE` - add build status badge to [README](README.md) | [#35][]
+- `NEW` - add specification files for ruby version | [#34][]
+- `IMPROVE` - remove version requirement for `jquery-ui` | [#32][]
+- `IMPROVE` - update gem `jquery-rails` to v4.1.1 | [#30][]
 
 
 4.5.2.0 / 2013-09-13
 --------------------
 
-- `IMPROVE` update jqGrid to v4.5.2 | [#26][]
+- `IMPROVE` - update jqGrid to v4.5.2 | [#26][]
 
 
 4.5.1.0 / 2013-09-13
 --------------------
 
-- `IMPROVE` update jqGrid to v4.5.1 | [#24][]
+- `IMPROVE` - update jqGrid to v4.5.1 | [#24][]
 
 
 4.5.0.0 / 2013-09-13
 --------------------
 
-- `NEW` update jqGrid to v4.5.0 | [#22][]
+- `NEW` - update jqGrid to v4.5.0 | [#22][]
 
 
 4.4.5.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.4.5 | [#20][]
+- `IMPROVE` - update jqGrid to v4.4.5 | [#20][]
 
 
 4.4.4.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.4.4 | [#18][]
+- `IMPROVE` - update jqGrid to v4.4.4 | [#18][]
 
 
 4.4.3.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.4.3 | [#16][]
+- `IMPROVE` - update jqGrid to v4.4.3 | [#16][]
 
 
 4.4.2.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.4.2 | [#14][]
+- `IMPROVE` - update jqGrid to v4.4.2 | [#14][]
 
 
 4.4.1.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.4.1 | [#13][]
+- `IMPROVE` - update jqGrid to v4.4.1 | [#13][]
 
 
 4.4.0.0 / 2013-09-12
 --------------------
 
-- `NEW` update jqGrid to v4.4.0 | [#12][]
+- `NEW` - update jqGrid to v4.4.0 | [#12][]
 
 
 4.3.3.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.3.3 | [#11][]
+- `IMPROVE` - update jqGrid to v4.3.3 | [#11][]
 
 
 4.3.2.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.3.2 | [#10][]
+- `IMPROVE` - update jqGrid to v4.3.2 | [#10][]
 
 
 4.3.1.0 / 2013-09-12
 --------------------
 
-- `IMPROVE` update jqGrid to v4.3.1 | [#9][]
+- `IMPROVE` - update jqGrid to v4.3.1 | [#9][]
 
 
 4.3.0.0 / 2013-09-06
 --------------------
 
-- `IMPROVE` update [README](README.md) with minor changes
-- `NEW` update jqGrid to v4.3.0
+- `IMPROVE` - update [README](README.md) with minor changes
+- `NEW` - update jqGrid to v4.3.0
 
 
 4.2.0.0 / 2013-07-28
 --------------------
 
-- `NEW` initial release
+- `NEW` - initial release
 
 
 Legend
@@ -135,3 +138,6 @@ Legend
 [#41]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/41
 [#43]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/43
 [#45]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/45
+[#47]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/47
+[#49]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/49
+[#51]: https://github.com/jhx/gem-jqgrid-jquery-rails/issues/51
