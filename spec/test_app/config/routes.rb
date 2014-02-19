@@ -1,3 +1,4 @@
+# encoding: utf-8
 Rails.application.routes.draw do
-  get '/', to: 'application#index'
+  get '/', :to => 'application#index'
 end
