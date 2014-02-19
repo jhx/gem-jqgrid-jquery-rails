@@ -8,8 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = JqgridJquery::Rails::VERSION
   spec.authors       = ['Doc Walker']
   spec.email         = ['doc.walker@jameshardie.com']
-  spec.description   = %q{Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.}
-  spec.summary       = %q{Provides the `jqGrid` jQuery plugin packaged for the Rails 3.1+ asset pipeline.}
+  spec.description   = 'Provides the `jqGrid` jQuery plugin packaged for ' \
+                       'the Rails 3.1+ asset pipeline.'
+  spec.summary       = 'Provides the `jqGrid` jQuery plugin packaged for ' \
+                       'the Rails 3.1+ asset pipeline.'
   spec.homepage      = 'https://github.com/jhx/gem-jqgrid-jquery-rails'
   spec.license       = 'MIT'
 
