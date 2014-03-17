@@ -13,5 +13,8 @@ Documentation:
 EmptyLines:
   Enabled: false
 
+FileName:
+  Enabled: false
+
 HashSyntax:
   EnforcedStyle: hash_rockets
