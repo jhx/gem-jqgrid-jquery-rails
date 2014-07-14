@@ -7,6 +7,12 @@ CHANGELOG
 - `IMPROVE` - update jqGrid to v4.6.0
 
 
+4.5.400 / 2014-07-14
+--------------------
+
+- `IMPROVE` - update jqGrid to v4.5.4
+
+
 4.5.201 / 2014-02-18
 --------------------
 
