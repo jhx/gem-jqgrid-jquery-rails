@@ -9,6 +9,10 @@ module JqgridJquery
     #   "4.5.200" is jqGrid v4.5.2 + gem release 0
     #   "4.5.201" is jqGrid v4.5.2 + gem release 1
     #   "4.5.210" is jqGrid v4.5.2 + gem release 10
-    VERSION = '4.5.201'
+    MAJOR = 4
+    MINOR = 5
+    PATCH = 201
+    BUILD = nil
+    VERSION = [MAJOR, MINOR, PATCH, BUILD].compact.join('.')
   end
 end
