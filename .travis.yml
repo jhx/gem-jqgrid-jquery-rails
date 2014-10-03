@@ -2,3 +2,4 @@ language: ruby
 rvm:
   - 'ruby-1.9.3'
   - 'ruby-2.1.2'
+before_install: gem install bundler
