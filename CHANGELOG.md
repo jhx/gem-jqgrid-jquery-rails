@@ -1,5 +1,17 @@
-CHANGELOG
-=========
+4.5.202 / 2014-11-18
+--------------------
+
+- `NEW` - Add changelog rake task | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/ecdeb3b)
+- `NEW` - Add CONTRIBUTING.md | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/003ca97)
+- `IMPROVE` - Configure rspec to use expect syntax | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/912dace)
+- `IMPROVE` - Update development gems | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/6b2df95)
+- `IMPROVE` - Update rubocop gem | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/06fadb4)
+- `IMPROVE` - Add MAJOR, MINOR, PATCH to version.rb | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/058e5c2)
+- `FIX` - Pin jquery-ui-rails to < 5.0 | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/ec0b369)
+- `IMPROVE` - Update to ruby-2.1.2 | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/7f103cb)
+- `FIX` - Disable FileName cop | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/47d5d0a)
+- `IMPROVE` - Update rubocop gem to v0.19.0 | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/b7c6db8)
+
 
 4.5.201 / 2014-02-18
 --------------------
