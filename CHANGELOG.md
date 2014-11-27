@@ -1,3 +1,9 @@
+4.6.001 / 2014-11-27
+--------------------
+
+- `BREAK` - Update jquery-ui-rails to v5.0.2 (potentially breaking change due to requirement to use jquery-ui-rails; gem version updated but still matches release of jqgrid) | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/e23a49f)
+
+
 4.6.000 / 2014-11-24
 --------------------
 
