@@ -1,9 +1,15 @@
 # jqgrid-jquery-rails
-[![Gem Version](https://badge.fury.io/rb/jqgrid-jquery-rails.png)](http://badge.fury.io/rb/jqgrid-jquery-rails)
-[![Build Status](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails.png?branch=master)](https://travis-ci.org/jhx/gem-jqgrid-jquery-rails)
-[![Dependency Status](https://gemnasium.com/jhx/gem-jqgrid-jquery-rails.png)](https://gemnasium.com/jhx/gem-jqgrid-jquery-rails)
-[![Code Climate](https://codeclimate.com/github/jhx/gem-jqgrid-jquery-rails.png)](https://codeclimate.com/github/jhx/gem-jqgrid-jquery-rails)
-[![Coverage Status](https://coveralls.io/repos/jhx/gem-jqgrid-jquery-rails/badge.png)](https://coveralls.io/r/jhx/gem-jqgrid-jquery-rails)
+[![Gem](http://img.shields.io/gem/v/jqgrid-jquery-rails.svg?style=flat)][gem]
+[![Travis](https://img.shields.io/travis/jhx/gem-jqgrid-jquery-rails.svg?style=flat)][travis]
+[![Gemnasium](http://img.shields.io/gemnasium/jhx/gem-jqgrid-jquery-rails.svg?style=flat)][gemnasium]
+[![Code Climate](http://img.shields.io/codeclimate/github/jhx/gem-jqgrid-jquery-rails.svg?style=flat)][code climate]
+[![Coveralls](http://img.shields.io/coveralls/jhx/gem-jqgrid-jquery-rails.svg?style=flat)][coveralls]
+
+[gem]: https://rubygems.org/gems/jqgrid-jquery-rails
+[travis]: https://travis-ci.org/jhx/gem-jqgrid-jquery-rails
+[gemnasium]: https://gemnasium.com/jhx/gem-jqgrid-jquery-rails
+[code climate]: https://codeclimate.com/github/jhx/gem-jqgrid-jquery-rails
+[coveralls]: https://coveralls.io/r/jhx/gem-jqgrid-jquery-rails
 
 > Gemified by Doc Walker
 
