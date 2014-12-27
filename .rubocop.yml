@@ -5,7 +5,8 @@ AllCops:
     - !ruby/regexp /\.gemspec$/
     - Gemfile
     - '**/Rakefile'
-  Exclude: []
+  Exclude:
+    - vendor/**/*
 
 Documentation:
   Enabled: false
