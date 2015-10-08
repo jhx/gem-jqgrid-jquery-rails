@@ -7,9 +7,9 @@ feature 'Asset pipeline' do
     # save_and_open_page  # for debugging (opens page in browser)
 
     expect(page).to have_text(<<-EOF
-    * @license jqGrid  4.6.0 - jQuery Grid
-    * Copyright (c) 2008, Tony Tomov, tony@trirand.com
-    EOF
+ * @license Guriddo jqGrid JS - v4.8.2 - 2015-03-24
+ * Copyright(c) 2008, Tony Tomov, tony@trirand.com
+   EOF
     )
   end # scenario
 
