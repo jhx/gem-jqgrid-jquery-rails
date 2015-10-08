@@ -1,3 +1,10 @@
+
+4.8.2 / 2015-10-08
+--------------------
+
+- `IMPROVE` - Update jqGrid to v4.8.2 | [view](https://github.com/jhx/gem-jqgrid-jquery-rails/commit/68bdd0c)
+
+
 4.6.001 / 2014-11-27
 --------------------
 
