@@ -1,4 +1,3 @@
-;(function($){
 /**
  * jqGrid Portuguese Translation
 * Tradu��o da jqGrid em Portugues por Frederico Carvalho, http://www.eyeviewdesign.pt
@@ -6,13 +5,38 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
 **/
+/*global jQuery, define */
+(function( factory ) {
+	"use strict";
+	if ( typeof define === "function" && define.amd ) {
+		// AMD. Register as an anonymous module.
+		define([
+			"jquery",
+			"../grid.base"
+		], factory );
+	} else {
+		// Browser globals
+		factory( jQuery );
+	}
+}(function( $ ) {
+
 $.jgrid = $.jgrid || {};
-$.extend($.jgrid,{
+if(!$.jgrid.hasOwnProperty("regional")) {
+	$.jgrid.regional = [];
+}
+$.jgrid.regional["pt"] = {
 	defaults : {
 		recordtext: "View {0} - {1} of {2}",
 	    emptyrecords: "No records to view",
 		loadtext: "A carregar...",
-		pgtext : "Página {0} de {1}"
+		pgtext : "Página {0} de {1}",
+		savetext: "Saving...",
+		pgfirst : "First Page",
+		pglast : "Last Page",
+		pgnext : "Next Page",
+		pgprev : "Previous Page",
+		pgrecs : "Records per Page",
+		showhide: "Toggle Expand Collapse Grid"
 	},
 	search : {
 	    caption: "Busca...",
@@ -71,7 +95,11 @@ $.extend($.jgrid,{
 	    alertcap: "Aviso",
 	    alerttext: "Por favor, seleccione um registo",
 		viewtext: "",
-		viewtitle: "View selected row"
+		viewtitle: "View selected row",
+		savetext: "",
+		savetitle: "Save row",
+		canceltext: "",
+		canceltitle : "Cancel row editing"
 	},
 	col : {
 	    caption: "Mostrar/Ocultar Colunas",
@@ -115,7 +143,8 @@ $.extend($.jgrid,{
 	            UniversalSortableDateTime: "Y-m-d H:i:sO",
 	            YearMonth: "F, Y"
 	        },
-	        reformatAfterEdit : false
+	        reformatAfterEdit : false,
+			userLocalTime : false
 		},
 		baseLinkUrl: '',
 		showAction: '',
@@ -123,5 +152,5 @@ $.extend($.jgrid,{
 	    checkbox : {disabled:true},
 		idName : 'id'
 	}
-});
-})(jQuery);
+};
+}));

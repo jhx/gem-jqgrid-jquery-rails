@@ -1,4 +1,3 @@
-;(function($){
 /**
  * jqGrid Icelandic Translation
  * jtm@hi.is Univercity of Iceland
@@ -6,13 +5,38 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
 **/
+/*global jQuery, define */
+(function( factory ) {
+	"use strict";
+	if ( typeof define === "function" && define.amd ) {
+		// AMD. Register as an anonymous module.
+		define([
+			"jquery",
+			"../grid.base"
+		], factory );
+	} else {
+		// Browser globals
+		factory( jQuery );
+	}
+}(function( $ ) {
+
 $.jgrid = $.jgrid || {};
-$.extend($.jgrid,{
+if(!$.jgrid.hasOwnProperty("regional")) {
+	$.jgrid.regional = [];
+}
+$.jgrid.regional["is"] = {
 	defaults : {
 		recordtext: "Skoða {0} - {1} af {2}",
 	    emptyrecords: "Engar færslur",
 		loadtext: "Hleður...",
-		pgtext : "Síða {0} af {1}"
+		pgtext : "Síða {0} af {1}",
+		savetext: "Saving...",
+		pgfirst : "First Page",
+		pglast : "Last Page",
+		pgnext : "Next Page",
+		pgprev : "Previous Page",
+		pgrecs : "Records per Page",
+		showhide: "Toggle Expand Collapse Grid"
 	},
 	search : {
 	    caption: "Leita...",
@@ -72,7 +96,11 @@ $.extend($.jgrid,{
 	    alertcap: "Viðvörun",
 	    alerttext: "Vinsamlega veldu færslu",
 		viewtext: "",
-		viewtitle: "Skoða valda færslu"
+		viewtitle: "Skoða valda færslu",
+		savetext: "",
+		savetitle: "Save row",
+		canceltext: "",
+		canceltitle : "Cancel row editing"
 	},
 	col : {
 	    caption: "Sýna / fela dálka",
@@ -116,7 +144,8 @@ $.extend($.jgrid,{
 	            UniversalSortableDateTime: "Y-m-d H:i:sO",
 	            YearMonth: "F, Y"
 	        },
-	        reformatAfterEdit : false
+	        reformatAfterEdit : false,
+			userLocalTime : false
 		},
 		baseLinkUrl: '',
 		showAction: '',
@@ -124,5 +153,5 @@ $.extend($.jgrid,{
 	    checkbox : {disabled:true},
 		idName : 'id'
 	}
-});
-})(jQuery);
+};
+}));
