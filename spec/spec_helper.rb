@@ -14,7 +14,7 @@ require File.expand_path('../../spec/test_app/config/environment', __FILE__)
 
 require 'capybara/rspec'
 require 'rspec/rails'
-# require 'rspec/autorun'
+require 'rspec/autorun'
 
 include Sprockets::Helpers::RailsHelper
 include Sprockets::Helpers::IsolatedHelper
@@ -36,6 +36,7 @@ RSpec.configure do |config|
   # config.mock_with :flexmock
   # config.mock_with :rr
 
+  config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
 
